@@ -8,9 +8,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/mocks"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/mocks"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/protocol"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/wire"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

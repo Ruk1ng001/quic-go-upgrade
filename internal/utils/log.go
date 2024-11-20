@@ -125,7 +125,7 @@ func readLoggingEnv() LogLevel {
 	case "error":
 		return LogLevelError
 	default:
-		fmt.Fprintln(os.Stderr, "invalid quic-go log level, see https://github.com/quic-go/quic-go/wiki/Logging")
+		fmt.Fprintln(os.Stderr, "invalid quic-go log level, see https://github.com/ruk1ng001/quic-go-upgrade/wiki/Logging")
 		return LogLevelNothing
 	}
 }

@@ -13,14 +13,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/quic-go/quic-go/internal/ackhandler"
-	"github.com/quic-go/quic-go/internal/flowcontrol"
-	"github.com/quic-go/quic-go/internal/handshake"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qerr"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/internal/wire"
-	"github.com/quic-go/quic-go/logging"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/ackhandler"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/flowcontrol"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/handshake"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/protocol"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/qerr"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/utils"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/wire"
+	"github.com/ruk1ng001/quic-go-upgrade/logging"
 )
 
 type unpacker interface {
@@ -300,7 +300,7 @@ var newConnection = func(
 		// different from protocol.DefaultActiveConnectionIDLimit.
 		// If set to the default value, it will be omitted from the transport parameters, which will make
 		// old quic-go versions interpret it as 0, instead of the default value of 2.
-		// See https://github.com/quic-go/quic-go/pull/3806.
+		// See https://github.com/ruk1ng001/quic-go-upgrade/pull/3806.
 		ActiveConnectionIDLimit:   protocol.MaxActiveConnectionIDs,
 		InitialSourceConnectionID: srcConnID,
 		RetrySourceConnectionID:   retrySrcConnID,
@@ -409,7 +409,7 @@ var newClientConnection = func(
 		// different from protocol.DefaultActiveConnectionIDLimit.
 		// If set to the default value, it will be omitted from the transport parameters, which will make
 		// old quic-go versions interpret it as 0, instead of the default value of 2.
-		// See https://github.com/quic-go/quic-go/pull/3806.
+		// See https://github.com/ruk1ng001/quic-go-upgrade/pull/3806.
 		ActiveConnectionIDLimit:   protocol.MaxActiveConnectionIDs,
 		InitialSourceConnectionID: srcConnID,
 	}

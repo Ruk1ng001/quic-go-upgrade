@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/quic-go/quic-go"
+	"github.com/ruk1ng001/quic-go-upgrade"
 )
 
 // A Hijacker allows hijacking of the stream creating part of a quic.Session from a http.Response.Body.

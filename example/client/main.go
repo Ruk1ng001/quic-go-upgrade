@@ -11,10 +11,10 @@ import (
 	"os"
 	"sync"
 
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/http3"
-	"github.com/quic-go/quic-go/internal/testdata"
-	"github.com/quic-go/quic-go/qlog"
+	"github.com/ruk1ng001/quic-go-upgrade"
+	"github.com/ruk1ng001/quic-go-upgrade/http3"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/testdata"
+	"github.com/ruk1ng001/quic-go-upgrade/qlog"
 )
 
 func main() {

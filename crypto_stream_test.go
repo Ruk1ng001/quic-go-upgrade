@@ -3,9 +3,9 @@ package quic
 import (
 	"fmt"
 
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qerr"
-	"github.com/quic-go/quic-go/internal/wire"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/protocol"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/qerr"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/wire"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

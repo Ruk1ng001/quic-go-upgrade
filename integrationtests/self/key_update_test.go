@@ -6,10 +6,10 @@ import (
 	"io"
 	"net"
 
-	"github.com/quic-go/quic-go"
-	"github.com/quic-go/quic-go/internal/handshake"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/logging"
+	"github.com/ruk1ng001/quic-go-upgrade"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/handshake"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/protocol"
+	"github.com/ruk1ng001/quic-go-upgrade/logging"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

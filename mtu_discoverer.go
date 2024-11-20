@@ -3,11 +3,11 @@ package quic
 import (
 	"time"
 
-	"github.com/quic-go/quic-go/internal/ackhandler"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/utils"
-	"github.com/quic-go/quic-go/internal/wire"
-	"github.com/quic-go/quic-go/logging"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/ackhandler"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/protocol"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/utils"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/wire"
+	"github.com/ruk1ng001/quic-go-upgrade/logging"
 )
 
 type mtuDiscoverer interface {

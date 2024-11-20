@@ -1,4 +1,4 @@
-module github.com/quic-go/quic-go
+module github.com/ruk1ng001/quic-go-upgrade
 
 go 1.22
 

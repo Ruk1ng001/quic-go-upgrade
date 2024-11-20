@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	mocklogging "github.com/quic-go/quic-go/internal/mocks/logging"
-	"github.com/quic-go/quic-go/internal/protocol"
-	"github.com/quic-go/quic-go/internal/qerr"
-	"github.com/quic-go/quic-go/internal/utils"
+	mocklogging "github.com/ruk1ng001/quic-go-upgrade/internal/mocks/logging"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/protocol"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/qerr"
+	"github.com/ruk1ng001/quic-go-upgrade/internal/utils"
 	"go.uber.org/mock/gomock"
 
 	"github.com/stretchr/testify/require"
